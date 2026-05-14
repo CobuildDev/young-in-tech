@@ -52,8 +52,7 @@ export default function WaitlistPage() {
       {/* Main Content */}
       <main className="relative z-10 flex flex-col items-center text-center max-w-4xl px-6">
         <Typography variant="h1" align="center" className="!text-5xl sm:!text-7xl md:!text-[5.5rem] !font-bold !tracking-tight !text-zinc-900 !leading-[1.1] mb-6">
-          Young<br />
-          In <span className="inline-block w-12 h-12 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-xl sm:rounded-2xl md:rounded-[1.75rem] bg-gradient-to-br from-[#8B5CF6] via-[#D946EF] to-[#F97316] shadow-xl shadow-purple-500/20 align-middle -mt-1 sm:-mt-2 md:-mt-4"></span> Tech.
+          Young in Tech
         </Typography>
 
         <Typography variant="p" align="center" className="mt-2 text-[1.05rem] md:text-lg text-zinc-500 max-w-2xl mx-auto">
@@ -81,7 +80,7 @@ export default function WaitlistPage() {
             required
             className="flex-1 w-full px-6 py-4 rounded-full border border-zinc-200 bg-zinc-50/50 focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:bg-white transition-all text-sm text-zinc-900 placeholder:text-zinc-400"
           />
-          <Button type="submit" variant="primary" size="lg" className="w-full rounded-full shadow-md whitespace-nowrap">
+          <Button type="submit" variant="primaryone" size="lg" className="w-full bg-orange-400 rounded-full shadow-md whitespace-nowrap">
             Request early access
           </Button>
         </form>

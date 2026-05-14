@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+
+const robotoSlab = Roboto_Slab({
+  variable: "--font-roboto-slab",
   subsets: ["latin"],
 });
 
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${montserrat.className} h-full tracking-tighter antialiased`}
+      className={`${montserrat.variable} ${robotoSlab.variable} ${montserrat.className} h-full tracking-tighter antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Navbar />

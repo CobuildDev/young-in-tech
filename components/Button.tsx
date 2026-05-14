@@ -4,7 +4,7 @@ import type {
   DetailedHTMLProps,
 } from "react";
 
-type ButtonVariant = "primary" | "secondary" | "ghost";
+type ButtonVariant = "primary" | "secondary" | "ghost" | "primaryone";
 type ButtonSize = "sm" | "md" | "lg";
 
 type SharedButtonProps = {
@@ -31,6 +31,8 @@ export type ButtonProps = SharedButtonProps & (AnchorButtonProps | NativeButtonP
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
     "bg-zinc-950 text-white border border-transparent hover:bg-zinc-800 disabled:bg-zinc-400 disabled:text-zinc-100",
+  primaryone:
+    "bg-orange-400 text-white border border-transparent hover:bg-zinc-800 disabled:bg-zinc-400 disabled:text-zinc-100",
   secondary:
     "bg-white text-zinc-950 border border-zinc-300 hover:bg-zinc-100 disabled:bg-zinc-100 disabled:text-zinc-500",
   ghost:
