@@ -1,4 +1,4 @@
-import type { HTMLAttributes } from "react";
+import type { HTMLAttributes, ElementType } from "react";
 
 const tagMap = {
   h1: "h1",
@@ -24,7 +24,7 @@ export interface TypographyProps extends HTMLAttributes<HTMLElement> {
   align?: TypographyAlign;
   color?: string;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
 }
 
 const sizeClasses: Record<TypographySize, string> = {
@@ -61,7 +61,7 @@ export function Typography({
   children,
   ...rest
 }: TypographyProps) {
-  const Tag = (as || tagMap[variant]) as keyof JSX.IntrinsicElements;
+  const Tag = (as || tagMap[variant]) as ElementType;
   const classes = [
     sizeClasses[size],
     weightClasses[weight],
