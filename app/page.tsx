@@ -21,11 +21,11 @@ export default function Home() {
           </Typography>
 
           <Typography variant="p" align="center" className="max-w-2xl text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-10 leading-relaxed">
-            We're building a vibrant community to help young Nigerians accelerate their careers in tech through learning, collaboration, mentorship, and opportunities.
+            We're building a vibrant community to help young people accelerate their careers in tech through learning, collaboration, mentorship, and opportunities.
           </Typography>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <Button as="a" href="/waitlist" variant="primaryone" size="lg" className="rounded-full h-14 px-8 text-base shadow-lg shadow-purple-500/20">
+            <Button as="a" href="/waitlist" variant="primaryone" size="lg" className="rounded-full h-14 px-8 text-base">
               Join the waitlist
               <ArrowRight className="h-5 w-5 ml-2" />
             </Button>

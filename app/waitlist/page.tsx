@@ -56,7 +56,7 @@ export default function WaitlistPage() {
         </Typography>
 
         <Typography variant="p" align="center" className="mt-2 text-[1.05rem] md:text-lg text-zinc-500 max-w-2xl mx-auto">
-          We're building a community to help young Nigerians grow in tech through learning, collaboration, mentorship, and opportunities. <b>Be part of the movement!</b></Typography>
+          We're building a community to help young people grow in tech through learning, collaboration, mentorship, and opportunities. Be part of the movement!</Typography>
 
         <form className="mt-10 flex flex-col gap-3 w-full max-w-sm mx-auto relative pointer-events-auto">
           {/* Full name */}
