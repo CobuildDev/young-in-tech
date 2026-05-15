@@ -15,7 +15,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 mx-auto max-w-5xl text-center flex flex-col items-center">
-          <Typography variant="h1" align="center" className="!text-5xl sm:!text-7xl md:!text-[5rem] !font-bold !tracking-tight !leading-[1.1] mb-6">
+          <Typography variant="h1" align="center" className="!text-4xl sm:!text-5xl md:!text-[5rem] !font-bold !tracking-tight !leading-[1.1] mb-6">
             Build your future.<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#000000] via-[#522700] to-[#F97316]">Young In Tech.</span>
           </Typography>

@@ -51,7 +51,7 @@ export default function WaitlistPage() {
 
       {/* Main Content */}
       <main className="relative z-10 flex flex-col items-center text-center max-w-4xl px-6">
-        <Typography variant="h1" align="center" className="!text-5xl sm:!text-7xl md:!text-[5.5rem] !font-bold !tracking-tight !text-zinc-900 !leading-[1.1] mb-6">
+        <Typography variant="h1" align="center" className="!text-4xl sm:!text-5xl md:!text-[5.5rem] !font-bold !tracking-tight !text-zinc-900 !leading-[1.1] mb-6">
           Young in Tech
         </Typography>
 

@@ -28,11 +28,11 @@ export interface TypographyProps extends HTMLAttributes<HTMLElement> {
 }
 
 const sizeClasses: Record<TypographySize, string> = {
-  sm: "text-sm",
-  md: "text-base",
-  lg: "text-lg",
-  xl: "text-2xl",
-  "2xl": "text-3xl",
+  sm: "text-xs sm:text-sm",
+  md: "text-sm sm:text-base",
+  lg: "text-base sm:text-lg",
+  xl: "text-xl sm:text-2xl",
+  "2xl": "text-2xl sm:text-3xl md:text-4xl",
 };
 
 const weightClasses: Record<TypographyWeight, string> = {
